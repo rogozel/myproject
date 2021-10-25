@@ -1,23 +1,35 @@
 {
-  "name": "myproject",
+  "name": "@garmadon/test-story-system",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "build": "cross-env BABEL_ENV=production babel src -d dist",
+    "lint": "vue-cli-service lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
   "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/vue": "^6.3.12",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "auto": "^10.32.1",
     "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.3",
+    "cross-env": "^7.0.3",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^6.2.2",
+    "vue-loader": "^15.9.8",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {
@@ -38,5 +50,9 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "Storybook design systems tutorial",
+  "main": "index.js",
+  "author": "Mikhail Rogoza <mmrogoza@activebc.ru>",
+  "license": "MIT"
 }

@@ -1,6 +1,7 @@
 {
   "name": "@garmadon/test-story-system",
   "version": "0.1.0",
+  "repository": "https://github.com/rogozel/myproject.git/",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",

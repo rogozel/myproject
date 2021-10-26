@@ -54,6 +54,6 @@
   ],
   "description": "Storybook design systems tutorial",
   "main": "index.js",
-  "author": "Mikhail Rogoza <svinpauk7@yandex.ru>",
+  "author": "rogozel <svinpauk7@yandex.ru>",
   "license": "MIT"
 }

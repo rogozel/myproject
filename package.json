@@ -53,7 +53,7 @@
     "not dead"
   ],
   "description": "Storybook design systems tutorial",
-  "main": "index.js",
+  "main": "src/index.js",
   "author": "rogozel <svinpauk7@yandex.ru>",
   "license": "MIT"
 }
